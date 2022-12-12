@@ -15,7 +15,6 @@ class EmailService:
     def __init__(self):
         self.client = SendGridAPIClient(os.getenv("SENDGRID_API_KEY"))
 
-
     def _send_mail(self, subject, recipient_list, content):
         message = Mail(
             from_email=settings.DEFAULT_FROM_EMAIL,

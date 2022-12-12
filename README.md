@@ -17,7 +17,7 @@
 
 - Clone the Repository
 - create a .env file with the variables in the .env.example file
-  - `cp .env.example .env`
+  - `cp env.example .env`
   - You will also need to create an account with [SendGrid](https://sendgrid.com/) and get an API Key. You will need to add this to the .env file
 
 - Run `make build-dev`

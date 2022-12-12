@@ -35,7 +35,6 @@ THIRD_PARTY_APPS = [
 LOCAL_APPS = [
     "apps.example",
     "apps.shared",
-
 ]
 
 INSTALLED_APPS = DJANGO_APPS + THIRD_PARTY_APPS + LOCAL_APPS
@@ -102,7 +101,7 @@ USE_I18N = True
 
 USE_TZ = True
 
-SITE_NAME = "Demo API" #Change this to your project name
+SITE_NAME = "Demo API"  # Change this to your project name
 
 SITE_ID = 1
 
@@ -193,9 +192,6 @@ SWAGGER_SETTINGS = {
     "USE_SESSION_AUTH": False,
 }
 
-
-
-APPEND_SLASH = False
 
 EMAIL_HOST_PASSWORD = os.getenv("SENDGRID_API_KEY")
 DEFAULT_FROM_EMAIL = os.getenv("FROM_EMAIL")
