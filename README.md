@@ -2,6 +2,8 @@
 
 [![Black Code Style](https://img.shields.io/badge/code%20style-black-000000.svg)](https://github.com/ambv/black)
 
+This is a Django API boilerplate project that uses Docker and Docker Compose for a consistent and easy development environment. It also includes Postgres for the database, Celery for background task processing, and the Django Rest Framework for building APIs. The project is written in Python and follows best practices for Django development. It can be used as a starting point for building your own Django-powered APIs.
+
 ## Technologies
 
 - [Python 3.10](https://python.org): Base programming language for development
